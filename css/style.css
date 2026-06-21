@@ -16,11 +16,11 @@ scroll-behavior:smooth;
 }
 
 .main-logo{
-    width: 400px;
+    width: 550px;
     max-width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .hidden{
