@@ -11,6 +11,21 @@ color:white;
 line-height:1.6;
 }
 
+html{
+scroll-behavior:smooth;
+}
+
+.hidden{
+opacity:0;
+transform:translateY(40px);
+transition:all .8s ease;
+}
+
+.show{
+opacity:1;
+transform:translateY(0);
+}
+
 .hero{
 height:100vh;
 background:url("../img/hero.jpg") center/cover;
