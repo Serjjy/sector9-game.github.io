@@ -26,6 +26,35 @@ opacity:1;
 transform:translateY(0);
 }
 
+.navbar{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+
+padding:20px 8%;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:rgba(15,23,42,.8);
+backdrop-filter:blur(10px);
+
+z-index:1000;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
 .hero{
 height:100vh;
 background:url("../img/hero.jpg") center/cover;
