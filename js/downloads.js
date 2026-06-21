@@ -1,4 +1,4 @@
-const owner = "Serjiy";
+const owner = "Serjjy";
 const repo = "sector9-game.github.io";
 
 fetch(
