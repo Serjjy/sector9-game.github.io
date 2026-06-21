@@ -23,6 +23,12 @@ scroll-behavior:smooth;
     margin-bottom: 25px;
 }
 
+.logo img{
+    height:50px;
+    width:auto;
+    display:block;
+}
+
 .hidden{
 opacity:0;
 transform:translateY(40px);
