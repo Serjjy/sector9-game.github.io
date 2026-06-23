@@ -242,15 +242,18 @@ transform:scale(1.03);
 }
 
 .video-wrapper{
-position:relative;
-padding-bottom:56.25%;
-height:0;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
 }
 
 .video-wrapper iframe{
-position:absolute;
-width:100%;
-height:100%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
 }
 
 .requirements{
